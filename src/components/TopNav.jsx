@@ -17,7 +17,7 @@ const TopNav = () => {
                             strokeWidth="2"
                             strokeLinecap="round"
                             strokeLinejoin="round"
-                            className="lucide lucide-gamepad-2 w-8 h-8 text-white">
+                            className="lucide lucide-gamepad-2 w-9 h-9 text-white border-1 border-white rounded-xl dark:text-white dark:border-white">
                             <line x1="6" x2="10" y1="11" y2="11" />
                             <line x1="8" x2="8" y1="9" y2="13" />
                             <line x1="15" x2="15.01" y1="12" y2="12" />
@@ -26,7 +26,7 @@ const TopNav = () => {
                                 d="M17.32 5H6.68a4 4 0 0 0-3.978 3.59c-.006.052-.01.101-.017.152C2.604 9.416 2 14.456 2 16a3 3 0 0 0 3 3c1 0 1.5-.5 2-1l1.414-1.414A2 2 0 0 1 9.828 16h4.344a2 2 0 0 1 1.414.586L17 18c.5.5 1 1 2 1a3 3 0 0 0 3-3c0-1.545-.604-6.584-.685-7.258-.007-.05-.011-.1-.017-.151A4 4 0 0 0 17.32 5z" />
                         </svg>
                         <span
-                            className="self-center text-2xl font-semibold whitespace-nowrap dark:text-white">GameZone</span>
+                            className="font-pixelify self-center text-3xl whitespace-nowrap dark:text-white">GameZone</span>
                     </NavLink>
                     <div
                         className="flex items-center md:order-2 space-x-3 md:space-x-0 rtl:space-x-reverse">
@@ -105,7 +105,7 @@ const TopNav = () => {
                                 <NavLink
                                     to="/"
                                     className={(
-                                       { isActive }) => `block py-2 px-3 rounded-sm md:p-0 ${isActive? 'text-blue-700 dark:text-blue-500': 'text-gray-900 dark:text-white'} hover:bg-gray-100 md:hover:bg-transparent md:hover:text-blue-700 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent`
+                                       { isActive }) => ` font-ubuntu font-semibold block py-2 px-3 rounded-sm md:p-0 ${isActive? 'text-blue-700 dark:text-blue-500': 'text-gray-900 dark:text-white'} hover:bg-gray-100 md:hover:bg-transparent md:hover:text-blue-700 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent`
                                     }>
                                     Home
                                 </NavLink>
@@ -115,7 +115,7 @@ const TopNav = () => {
                                 <NavLink
                                     to="/blogs"
                                     className={(
-                                        { isActive }) => `block py-2 px-3 rounded-sm md:p-0 ${isActive? 'text-blue-700 dark:text-blue-500': 'text-gray-900 dark:text-white'} hover:bg-gray-100 md:hover:bg-transparent md:hover:text-blue-700 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent`
+                                        { isActive }) => `font-ubuntu font-semibold block py-2 px-3 rounded-sm md:p-0 ${isActive? 'text-blue-700 dark:text-blue-500': 'text-gray-900 dark:text-white'} hover:bg-gray-100 md:hover:bg-transparent md:hover:text-blue-700 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent`
                                     }>
                                     Blogs
                                 </NavLink>
@@ -125,35 +125,35 @@ const TopNav = () => {
                                 <NavLink
                                     to='/tournaments'
                                     className={(
-                                        { isActive }) => `block py-2 px-3 rounded-sm md:p-0 ${isActive? 'text-blue-700 dark:text-blue-500': 'text-gray-900 dark:text-white'} hover:bg-gray-100 md:hover:bg-transparent md:hover:text-blue-700 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent`
+                                        { isActive }) => `font-ubuntu font-semibold block py-2 px-3 rounded-sm md:p-0 ${isActive? 'text-blue-700 dark:text-blue-500': 'text-gray-900 dark:text-white'} hover:bg-gray-100 md:hover:bg-transparent md:hover:text-blue-700 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent`
                                     }>Tournaments</NavLink>
                             </li>
                             <li>
                                 <NavLink
                                     to='/about'
                                     className={(
-                                        { isActive }) => `block py-2 px-3 rounded-sm md:p-0 ${isActive? 'text-blue-700 dark:text-blue-500': 'text-gray-900 dark:text-white'} hover:bg-gray-100 md:hover:bg-transparent md:hover:text-blue-700 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent`
+                                        { isActive }) => `font-ubuntu font-semibold block py-2 px-3 rounded-sm md:p-0 ${isActive? 'text-blue-700 dark:text-blue-500': 'text-gray-900 dark:text-white'} hover:bg-gray-100 md:hover:bg-transparent md:hover:text-blue-700 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent`
                                     }>About</NavLink>
                             </li>
                             <li>
                                 <NavLink
                                     to='/contact'
                                     className={(
-                                        { isActive }) => `block py-2 px-3 rounded-sm md:p-0 ${isActive? 'text-blue-700 dark:text-blue-500': 'text-gray-900 dark:text-white'} hover:bg-gray-100 md:hover:bg-transparent md:hover:text-blue-700 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent`
+                                        { isActive }) => `font-ubuntu font-semibold block py-2 px-3 rounded-sm md:p-0 ${isActive? 'text-blue-700 dark:text-blue-500': 'text-gray-900 dark:text-white'} hover:bg-gray-100 md:hover:bg-transparent md:hover:text-blue-700 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent`
                                     }>Contact</NavLink>
                             </li>
                             <li>
                                 <NavLink
                                     to='/forums'
                                     className={(
-                                        { isActive }) => `block py-2 px-3 rounded-sm md:p-0 ${isActive? 'text-blue-700 dark:text-blue-500': 'text-gray-900 dark:text-white'} hover:bg-gray-100 md:hover:bg-transparent md:hover:text-blue-700 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent`
+                                        { isActive }) => `font-ubuntu font-semibold block py-2 px-3 rounded-sm md:p-0 ${isActive? 'text-blue-700 dark:text-blue-500': 'text-gray-900 dark:text-white'} hover:bg-gray-100 md:hover:bg-transparent md:hover:text-blue-500  md:dark:hover:bg-transparent`
                                     }>Forums</NavLink>
                             </li>
                             <li>
                                 <NavLink
                                     to='/News'
                                     className={(
-                                        { isActive }) => `block py-2 px-3 rounded-sm md:p-0 ${isActive? 'text-blue-700 dark:text-blue-500': 'text-gray-900 dark:text-white'} hover:bg-gray-100 md:hover:bg-transparent md:hover:text-blue-700 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent`
+                                        { isActive }) => `font-ubuntu font-semibold  block py-2 px-3 rounded-sm md:p-0 ${isActive? 'text-blue-700 dark:text-blue-500': 'text-gray-900 dark:text-white'} hover:bg-gray-100 md:hover:bg-transparent md:hover:text-blue-700 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent`
                                     }>News</NavLink>
                             </li>
                         </ul>

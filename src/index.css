@@ -3,3 +3,18 @@
 @plugin "flowbite/plugin";
 @source "../node_modules/flowbite";
 
+
+@font-face {
+    font-family: Ubuntu;
+    src: url("../src/assets/font/Ubuntu-Regular.ttf");
+}
+
+@font-face {
+    font-family: Pixelify Sans;
+    src: url("../src/assets/font/PixelifySans-Regular.ttf");
+}
+
+@theme{
+    --font-ubuntu: Ubuntu , "sans-serif";
+    --font-pixelify: Pixelify Sans, "sans-serif";
+}
