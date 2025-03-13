@@ -78,8 +78,8 @@ const Home = () => {
       </section>
       <section className='grid grid-cols-4 gap-4'>
         <div className=' mt-10 w-full relative max-h-[420px] overflow-hidden rounded-lg hover:border hover:border-red-400 '>
-          <img className='w-auto h-fit rounded-t-lg relative z-1 transition-all duration-300 hover:scale-125' src="./img/fortnite-lawless-2.jpg" alt="" />
-          <div className='bg-darkSlateGray-1 relative z-2'>
+          <img className='w-full h-[300px] rounded-t-lg relative z-1 transition-all duration-300 hover:scale-125' src="./img/fortnite-lawless-2.jpg" alt="" />
+          <div className='bg-darkSlateGray-1 relative z-2 w-[300px]'>
             <p className='text-white font-play text-[12px] p-1'>March 11 2025</p>
             <p className='text-gray-100 w-[300px] h-auto font-play text-xl pl-1 pr-1'>The Getaway LTM and Outlaw Midas Come to Fortnite Battle Royale v34.10!</p>
           </div>
