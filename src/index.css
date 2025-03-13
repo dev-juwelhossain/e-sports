@@ -25,6 +25,10 @@
     font-family: Poppins;
     src: url("../src/assets/font/Poppins-Regular.ttf");
 }
+@font-face {
+    font-family: Burbank;
+    src: url("../src/assets/font/Burbank.otf");
+}
 
 
 @theme{
@@ -33,7 +37,7 @@
     --font-montserrat: Montserrat, "sans-serif";
     --font-play: Play, "sans-serif";
     --font-poppins: Poppins, "sans-serif";
-
+    --font-burbank: Burbank, "sans-serif";
     --color-blue-1:#004098;
     --color-green-1:#3ddb86;
     --color-darkSlateGray-1:#092e42;
