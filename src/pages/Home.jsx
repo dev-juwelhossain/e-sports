@@ -2,6 +2,7 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faAndroid, faApple, faPlaystation, faWindows, faXbox } from '@fortawesome/free-brands-svg-icons';
 import { NavLink } from 'react-router';
 import { faCalendarDays } from '@fortawesome/free-regular-svg-icons';
+import { faArrowRight } from '@fortawesome/free-solid-svg-icons';
 
 const Home = () => {
   return (
@@ -100,9 +101,38 @@ const Home = () => {
             <p className='text-gray-100 w-[300px] h-auto max-h-[80px] font-play text-lg pl-1 pr-1'>Fortnite Party Up - Spring Raid: Unlock the Dupli-Kate Outfit!...</p>
           </div>
         </div>
+        <div className=' w-{24%} relative overflow-hidden '>
+          <img className='w-full h-[300px] rounded-t-lg relative z-1 transition-all duration-300 hover:scale-125' src="/img/fortnite-party-up-spring-raid-thumbnail-576x576-56603b0f5435.jpg" alt="" />
+          <div className='bg-darkSlateGray-1 relative z-2 w-full rounded-b-lg pb-2'>
+            <div className='flex gap-1'>
+            <FontAwesomeIcon icon={faCalendarDays} className='text-white text-lg p-1' />
+            <p className='text-white font-play text-[12px] p-1'>March 14 2025</p>
+            </div>
+            
+            <p className='text-gray-100 w-[300px] h-auto max-h-[80px] font-play text-lg pl-1 pr-1'>Fortnite Party Up - Spring Raid: Unlock the Dupli-Kate Outfit!...</p>
+          </div>
+        </div>
+        <div className=' w-{24%} relative overflow-hidden '>
+          <img className='w-full h-[300px] rounded-t-lg relative z-1 transition-all duration-300 hover:scale-125' src="/img/fortnite-party-up-spring-raid-thumbnail-576x576-56603b0f5435.jpg" alt="" />
+          <div className='bg-darkSlateGray-1 relative z-2 w-full rounded-b-lg pb-2'>
+            <div className='flex gap-1'>
+            <FontAwesomeIcon icon={faCalendarDays} className='text-white text-lg p-1' />
+            <p className='text-white font-play text-[12px] p-1'>March 14 2025</p>
+            </div>
+            
+            <p className='text-gray-100 w-[300px] h-auto max-h-[80px] font-play text-lg pl-1 pr-1'>Fortnite Party Up - Spring Raid: Unlock the Dupli-Kate Outfit!...</p>
+          </div>
+        </div>
         
         
       </section>
+      
+      <div className='flex justify-end items-center  '>
+       <NavLink to='/news' className='w-[200px] h-[40px] flex justify-center items-center gap-2 mt-10 text-blue-500 font-poppins rounded-lg hover:shadow-md hover:shadow-blue-200 border border-blue-400 hover:-translate-y-1 transition ease-in-out duration-300'>
+        <h1 className='text-lg'>More News</h1>
+        <FontAwesomeIcon icon={faArrowRight} size='1x'/>
+       </NavLink>
+      </div>
     </div>
   );
 };
