@@ -53,9 +53,9 @@ const Home = () => {
         </div>
 
         <div className='mt-4'>
-          <div className='flex gap-2 '>
+          <div className='flex gap-2 max-w-[100%] '>
             <img className='w-[30%] h-auto rounded-sm relative z-0  transition-all duration-300 hover:scale-105' src="./img/fortnite-battle-royale-chapter-2-remix-1900x600-479f45ad629c.jpg" alt="" />
-            <div className='flex flex-col justify-center bg-green-500 pl-2 pb-2 leading-normal rounded-lg'>
+            <div className='w-[65%]flex flex-col justify-center bg-green-500 pl-2 pb-2 leading-normal rounded-lg'>
               <h5 className='text-2xl text-white font-poppins pt-2'>Fortnite Chapter 2</h5>
               <p className='text-white font-montserrat'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas illo nam ipsa laborum vel enim? Eveniet reiciendis minima natus cum quis inventore consequuntur? Praesentium beatae tempora, dolores veritatis aut consequatur?</p>
               <div className='flex justify-between items-center '>
@@ -64,7 +64,7 @@ const Home = () => {
                   <p>Sep 18, 2025</p>
                 </div>
                 <div>
-                  <a href="" className='group relative w-max text-red-500 font-poppins p-2'>Read More
+                  <a href="" className='group relative w-max text-white font-poppins p-2'>Read More...
                   <span
                     className="absolute -bottom-[1px] left-0 w-0 transition-all duration-300 h-0.5 bg-white group-hover:w-full"
                   ></span>
@@ -76,12 +76,28 @@ const Home = () => {
         </div>
 
       </section>
-      <section className='grid grid-cols-4 gap-4'>
-        <div className=' mt-10 w-full relative max-h-[420px] overflow-hidden rounded-lg hover:border hover:border-red-400 '>
+      <section className='grid grid-cols-4 gap-4 mt-10'>
+        <div className=' w-{24%} relative h-{350px} overflow-hidden rounded-lg shadow-lg '>
           <img className='w-full h-[300px] rounded-t-lg relative z-1 transition-all duration-300 hover:scale-125' src="./img/fortnite-lawless-2.jpg" alt="" />
-          <div className='bg-darkSlateGray-1 relative z-2 w-[300px]'>
+          <div className='bg-darkSlateGray-1 h-auto relative z-2 w-full hover:bg-opacity-90 transition-all duration-300 rounded-b-lg pb-2'>
+            <div className='flex gap-1'>
+            <FontAwesomeIcon icon={faCalendarDays} className='text-white text-lg p-1' />
             <p className='text-white font-play text-[12px] p-1'>March 11 2025</p>
-            <p className='text-gray-100 w-[300px] h-auto font-play text-xl pl-1 pr-1'>The Getaway LTM and Outlaw Midas Come to Fortnite Battle Royale v34.10!</p>
+            </div>
+            
+            <p className='text-gray-100 w-[300px] h-auto font-play text-lg pl-1 pr-1'>The Getaway LTM and Outlaw Midas Come to Fortnite Battle Royale v34.10!...</p>
+          </div>
+        </div>
+        
+        <div className=' w-{24%} relative overflow-hidden '>
+          <img className='w-full h-[300px] rounded-t-lg relative z-1 transition-all duration-300 hover:scale-125' src="/img/fortnite-party-up-spring-raid-thumbnail-576x576-56603b0f5435.jpg" alt="" />
+          <div className='bg-darkSlateGray-1 relative z-2 w-full rounded-b-lg pb-2'>
+            <div className='flex gap-1'>
+            <FontAwesomeIcon icon={faCalendarDays} className='text-white text-lg p-1' />
+            <p className='text-white font-play text-[12px] p-1'>March 14 2025</p>
+            </div>
+            
+            <p className='text-gray-100 w-[300px] h-auto max-h-[80px] font-play text-lg pl-1 pr-1'>Fortnite Party Up - Spring Raid: Unlock the Dupli-Kate Outfit!...</p>
           </div>
         </div>
         
